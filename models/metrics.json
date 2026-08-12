@@ -1,0 +1,33 @@
+{
+  "selected_model": "Random Forest",
+  "features": [
+    "Temperature",
+    "RH",
+    "Ws",
+    "Rain",
+    "FFMC",
+    "DMC",
+    "DC",
+    "ISI",
+    "BUI",
+    "Region"
+  ],
+  "test_size": 0.2,
+  "random_state": 42,
+  "models": {
+    "Logistic Regression": {
+      "accuracy": 0.9592,
+      "precision": 0.9643,
+      "recall": 0.9643,
+      "f1": 0.9643,
+      "roc_auc": 0.9915
+    },
+    "Random Forest": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0
+    }
+  }
+}
